@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" manifest="cache.manifest">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>别踩白块</title>
+	<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	#canvas{
+		width:100%;
+		height:100%;
+		position:absolute;
+		left:0;
+		top:0;
+	}
+	</style>
+	<script type="text/javascript" src="src/lib/phaser.min.js"></script>
+	<script type="text/javascript" src="src/lib/function.js"></script>
+	<script type="text/javascript" src="src/state/boot.js"></script>
+	<script type="text/javascript" src="src/state/preload.js"></script>
+	<script type="text/javascript" src="src/state/homepage.js"></script>
+	<script type="text/javascript" src="src/state/showrank.js"></script>
+	<script type="text/javascript" src="src/state/classic.js"></script>
+	<script type="text/javascript" src="src/state/zen.js"></script>
+	<script type="text/javascript" src="src/state/arcade.js"></script>
+	<script type="text/javascript" src="src/state/relay.js"></script>
+	<script type="text/javascript" src="src/state/gameover.js"></script>
+</head>
+<body>
+	<div id="canvas"></div>
+	<script type="text/javascript" src="src/main.js"></script>
+</body>
+</html>

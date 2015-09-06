@@ -1,0 +1,27 @@
+CACHE MANIFEST
+#version 5.9.3
+CACHE:
+assets/0.ogg
+assets/1.ogg
+assets/2.ogg
+assets/3.ogg
+assets/4.ogg
+assets/5.ogg
+assets/6.ogg
+assets/blackbg.png
+assets/blackblock.png
+assets/checkline.png
+assets/f.ogg
+assets/greenblock.png
+assets/preloader.gif
+assets/rate.jpg
+assets/startblock.png
+assets/success.wav
+assets/whitebg.png
+assets/whiteblock.png
+assets/yellowblock.png
+src/main.min.js
+src/lib/function.min.js
+src/lib/phaser.min.js
+NETWORK:
+http://xingguang123.sinaapp.com/whiteblock.php
